@@ -2,6 +2,8 @@
 a beautiful progress button components with vue
 
 
+eg: 
+[e-circle-progress](https://kisscode.oschina.io/learn/demos/e-circle-progress.html)
 ## Build Setup
 
 ``` bash
