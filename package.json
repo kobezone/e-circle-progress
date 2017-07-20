@@ -5,7 +5,7 @@
   "author": "kobezone <kobezone@163.com>",
   "main": "dist/e-circle-progress.min.js",
   "license": "MIT",
-  "homepage":"https://kobezone.github.io/e-circle-progress/demo/",
+  "homepage":"https://kisscode.oschina.io/learn/demos/e-circle-progress.html",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
