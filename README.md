@@ -18,7 +18,7 @@ npm run build
 ```
 
 ### examples
-![imgs](https://github.com/kobezone/e-circle-progress/demos/e-circle-progress-demos.png)
+![imgs](https://raw.githubusercontent.com/kobezone/e-circle-progress/master/demo/e-circle-progress-demos.png)
 [demos](https://github.com/kobezone/e-circle-progress/demos/e-circle-progress.html)
 
 ### use
