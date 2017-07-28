@@ -1,7 +1,7 @@
 {
   "name": "e-circle-progress",
   "description": "e-circle-progress button with vue",
-  "version": "1.0.3",
+  "version": "1.0.2",
   "author": "kobezone <kobezone@163.com>",
   "main": "dist/e-circle-progress.min.js",
   "license": "MIT",
