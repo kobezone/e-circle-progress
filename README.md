@@ -9,6 +9,7 @@ eg:
 ``` bash
 # install dependencies
 npm install
+# 如果npm 安装慢的话 可以采用 `npm install --registry=https://registry.npm.taobao.org` 推荐
 
 # serve with hot reload at localhost:8080
 npm run dev
@@ -19,10 +20,10 @@ npm run build
 
 ### examples
 ![imgs](https://raw.githubusercontent.com/kobezone/e-circle-progress/master/demo/e-circle-progress-demos.png)
-[demos](https://github.com/kobezone/e-circle-progress/demos/e-circle-progress.html)
 
-### use
+### [demos](https://kobezone.github.io/e-circle-progress/demo/e-circle-progress.html)
 
+### use 使用
 
 ```html
 <e-circle-progress :during="20" :pv="pv1"  color="#f01250" ></e-circle-progress>
