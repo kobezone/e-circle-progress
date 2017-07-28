@@ -25,6 +25,11 @@ npm run build
 
 ### use 使用
 
+1. 可以直接使用 引入js 后写对应的自定义标记即可 详见上面的[demos](https://kobezone.github.io/e-circle-progress/demo/e-circle-progress.html)
+```js
+ <script src="https://unpkg.com/e-circle-progress"></script>
+```
+
 ```html
 <e-circle-progress :during="20" :pv="pv1"  color="#f01250" ></e-circle-progress>
 <e-circle-progress :during="10" :pv="pv2" color="#f00" :font-size="40" :width="100"  text-color="#68d7c6"></e-circle-progress>
@@ -32,17 +37,15 @@ npm run build
 <e-circle-progress :during="10" :pv="99"  :width="150"  text-color="#898579" text-bg-color="#fff" :bold="5" color="#f01250"></e-circle-progress>
 ```
 
-```js
- <script src="https://unpkg.com/e-circle-progress"></script>
-```
-
+2. vue 单文件的形式 
 ```js
 
   // vue单文件中 直接导入对应的组件就可以使用了
   import eCircleProgress from 'e-circle-progress';
 
   //components:{eCircleProgress}
-
+  // html
+  <e-circle-progress :during="10" :pv="pv2" color="#f00" :font-size="40" :width="100"  text-color="#68d7c6"></e-circle-progress>
 ```
 
 
