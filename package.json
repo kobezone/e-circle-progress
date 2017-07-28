@@ -1,11 +1,11 @@
 {
   "name": "e-circle-progress",
-  "description": "water-wave-progress button with vue",
-  "version": "1.0.0",
+  "description": "e-circle-progress button with vue",
+  "version": "1.0.3",
   "author": "kobezone <kobezone@163.com>",
   "main": "dist/e-circle-progress.min.js",
   "license": "MIT",
-  "homepage":"https://kisscode.oschina.io/learn/demos/e-circle-progress.html",
+  "homepage":"https://github.com/kobezone/e-circle-progress",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"

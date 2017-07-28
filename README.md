@@ -17,4 +17,31 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### examples
+![imgs](https://github.com/kobezone/e-circle-progress/demos/e-circle-progress-demos.png)
+[demos](https://github.com/kobezone/e-circle-progress/demos/e-circle-progress.html)
+
+### use
+
+
+```html
+<e-circle-progress :during="20" :pv="pv1"  color="#f01250" ></e-circle-progress>
+<e-circle-progress :during="10" :pv="pv2" color="#f00" :font-size="40" :width="100"  text-color="#68d7c6"></e-circle-progress>
+<e-circle-progress :during="10" :pv="pv3"  :font-size="100" :width="200"  text-color="#898579" text-bg-color="#fff" :bold="20" color="#fd625e"></e-circle-progress>
+<e-circle-progress :during="10" :pv="99"  :width="150"  text-color="#898579" text-bg-color="#fff" :bold="5" color="#f01250"></e-circle-progress>
+```
+
+```js
+ <script src="https://unpkg.com/e-circle-progress"></script>
+```
+
+```js
+
+  // vue单文件中 直接导入对应的组件就可以使用了
+  import eCircleProgress from 'e-circle-progress';
+
+  //components:{eCircleProgress}
+
+```
+
+
